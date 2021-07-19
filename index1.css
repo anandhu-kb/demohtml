@@ -180,7 +180,9 @@ body{
   max-height: 500%;
   padding: 100px 100px;
 }*/
-button{
+p{
 	align-items: left;
 	border: red;
+	height: 50%;
+	width: 10%;
 }
