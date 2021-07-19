@@ -1,0 +1,182 @@
+body{
+/*
+	background-image: url(https://picsum.photos/id/1080/6858/4574), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+  	background-position: center center;
+*/
+
+	background: black;
+	color: red;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	width: -10	0vh;
+	margin: 0;
+}
+
+.heart{
+
+	background: white;
+	position: relative;
+	height: 100px;
+	width: 100px;
+	transform: rotate(-45deg) scale(1);
+	animation: pulse 30s linear infinite;
+
+}
+@keyframes pulse{
+	
+	0% {
+		transform: rotate(0deg) ;
+		}
+	
+	10%{
+		transform: rotate(-45deg) ;
+	}
+	20%{
+		transform: rotate(-45deg) ;
+	}
+	30%{
+		transform: rotate(0deg) ;
+	}
+	40%{
+		transform: rotate(-45deg) ;
+	}
+	50%{
+		transform: rotate(-45deg) ;
+	}
+	60%{
+		transform: rotate(0deg);
+	}
+	70%{
+		transform: rotate(-45deg);
+	}
+	80%{
+		transform: rotate(-45deg);
+	}
+	90%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-45deg);
+	}
+
+
+
+
+
+
+}
+.heart::after{
+
+	background: inherit;
+	border-radius: 50%;
+	content: '';
+	position: absolute;
+	top: -50px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100px;
+	animation: name 20s linear infinite;
+}
+@keyframes name{
+	0%{
+		top: -500px;
+	}
+	10%{
+		top: -50px;
+	}
+	20%{
+		top: -50px;
+	}
+	30%{
+		top: -500px;
+		}
+	40%{
+		top: -50px;
+	}
+	50%{
+		top: -50px;
+	}
+	60%{
+		top: -500px;
+	}
+	70%{
+		top: -50px;
+	}
+	80%{
+		top: -50px;
+	}
+	90%{
+		top: -500px;
+	}
+	100%{
+		top: -50px;
+	}
+}
+
+
+.heart::before{
+
+	background: inherit;
+	border-radius: 50%;
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: -50px;
+	height: 100px;
+	width: 100px;
+	animation: names 20s linear infinite;
+}
+@keyframes names{
+	0%{
+		right: -500px;
+	}
+	10%{
+		right: -50px;
+	}
+	20%{
+		right: -50px;
+	}
+	30%{
+		right: -500px;
+	}
+	40%{
+		right: -50px;
+	}
+	50%{
+		right: -50px;
+	}
+	60%{
+		right: -500px;
+	}
+	70%{
+		right: -50px;
+	}
+	80%{
+		right: -50px;
+	}
+	90%{
+		right: -500px;
+	}
+	100%{
+		right: -50;
+	}
+}
+/*.box {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  content: ' ';
+  position: absolute;;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1;
+ -webkit-backdrop-filter: blur(5000px);
+  backdrop-filter: blur(50000px);
+  max-width: 500%;
+  max-height: 500%;
+  padding: 100px 100px;
+}
