@@ -180,3 +180,7 @@ body{
   max-height: 500%;
   padding: 100px 100px;
 }
+button{
+	text-align: left;
+	border: red;
+}
