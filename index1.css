@@ -1,16 +1,26 @@
-
 #p{
-	background-color: #828280;
-	width: 430px;
+																						
+	height: 100%;
 
 }
-h1{
-		font-size: 40px;
-		color:  #00004d;
+h1{		
+		background: -webkit-linear-gradient(rgb(104, 208, 229), rgb(220, 220, 244));
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;	
+
+		font-family: Cursive;
+		font-size: 50px;
+		color: rgb(0, 0, 77);
 }
 a{
+	background: -webkit-linear-gradient(#1a0066, #000000);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-weight: bolder;
+	font-family: cursive;					
 	font-size: 30px;
-	color:  #00e6e6;
+	font-style: Cursive;
+	color: rgb(161, 141, 233);
 
 }
 body{
