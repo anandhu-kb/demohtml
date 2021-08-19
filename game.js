@@ -1032,7 +1032,7 @@ $.setState = function( state ) {
 		} );
 		$.buttons.push( statsButton );
 
-		var creditsButton = new $.Button( {
+		/*var creditsButton = new $.Button( {
 			x: $.cw / 2 + 1,
 			y: statsButton.ey + 26,
 			lockedWidth: 299,
@@ -1043,7 +1043,7 @@ $.setState = function( state ) {
 				$.setState( 'credits' );
 			}
 		} ) ;
-		$.buttons.push( creditsButton );
+		$.buttons.push( creditsButton );*/
 	}
 
 	if( state == 'stats' ) {
@@ -1227,7 +1227,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2,
 			y: $.ch - 172,
-			text: 'CREATED BY JACK RUGILE FOR JS13KGAMES 2013',
+			text: 'CREATED BY K41KI',
 			hspacing: 1,
 			vspacing: 1,
 			halign: 'center',
@@ -1342,7 +1342,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2 - 10,
 			y: creditsTitle.ey + 49,
-			text: 'CREATED FOR JS13KGAMES BY\nINSPIRATION AND SUPPORT\n\nAUDIO PROCESSING\nGAME INSPIRATION AND IDEAS\n\nHTML5 CANVAS REFERENCE\n\nGAME MATH REFERENCE',
+			text: 'CREATED FOR K41KI ',
 			hspacing: 1,
 			vspacing: 17,
 			halign: 'right',
@@ -1359,7 +1359,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2 + 10,
 			y: creditsTitle.ey + 49,
-			text: '@JACKRUGILE\n@REZONER, @LOKTAR00, @END3R,\n@AUSTINHALLOCK, @CHANDLERPRALL\nJSFXR BY @MARKUSNEUBRAND\nASTEROIDS, CELL WARFARE,\nSPACE PIPS, AND MANY MORE\nNIHILOGIC HTML5\nCANVAS CHEAT SHEET\nBILLY LAMBERTA FOUNDATION\nHTML5 ANIMATION WITH JAVASCRIPT',
+			text: 'jjjjT',
 			hspacing: 1,
 			vspacing: 17,
 			halign: 'left',
